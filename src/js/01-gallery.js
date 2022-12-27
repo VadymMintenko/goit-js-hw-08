@@ -21,7 +21,7 @@ function createItemEl(items) {
     .join('');
 }
 
-const Lightbox = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
